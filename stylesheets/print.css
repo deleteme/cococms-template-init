@@ -1,0 +1,16 @@
+/*
+
+Print.css
+*/
+* { background: #fff; }
+body { font-family: georgia, times, serif; color: black; }
+blockquote { font-style: italic; color: black; }
+a:link, a:visited { border-bottom-width: 1px; border-bottom-style: solid; }
+
+/*
+
+Hiding elements
+selector {
+  display: none !important;
+}
+*/
