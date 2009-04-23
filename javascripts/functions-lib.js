@@ -11,17 +11,6 @@ function t(f) {
   Try.these(f);
 }
 
-/*
-from: http://mislav.caboo.se/js/when-available-in-prototype/
-When object is available, do function fn.
-*/
-function when(obj, fn) {
-  if (Object.isString(obj)) obj = /^[\w-]+$/.test(obj) ? $(obj) : $(document.body).down(obj)
-  if (Object.isArray(obj) && !obj.length) return
-  if (obj) fn(obj)
-}
-
-
 Element.addMethods({
   /*
 
