@@ -1,0 +1,19 @@
+=inline_list
+  :float left
+  :margin 0
+  & li
+    :display inline
+    :float left
+    :list-style none
+    & a
+      :float left
+= round_corners(!radius = 5px)
+  :-moz-border-radius= !radius
+  :-webkit-border-radius= !radius
+  
+=left
+  :display inline
+  :float left
+=right
+  :display inline
+  :float right

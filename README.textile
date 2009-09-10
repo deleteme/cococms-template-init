@@ -1,0 +1,1 @@
+CocoCMS templates now uses "compass":http://wiki.github.com/chriseppstein/compass
