@@ -1,1 +1,3 @@
-CocoCMS templates now uses "compass":http://wiki.github.com/chriseppstein/compass
+CocoCMS templates now uses "compass":http://wiki.github.com/chriseppstein/compass.
+
+Make sure you add .sass-cache/ to your .gitignore file. I have mine set globally.
